@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Footer from "./footer";
 import "../css/base.css";
 import "../css/main.css";
+import "../css/fonts.css";
 
 class Contact extends Component {
   render() {

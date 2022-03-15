@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../css/base.css";
 import "../css/main.css";
+import "../css/fonts.css";
 import proj1 from "../images/portfolio/proj1.png";
 import proj2 from "../images/portfolio/proj2.png";
 import proj3 from "../images/portfolio/proj3.png";

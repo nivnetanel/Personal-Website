@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../css/base.css";
+import "../css/fonts.css";
 import "../css/main.css";
 import Projects from "./projects";
 

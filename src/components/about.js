@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../css/base.css";
 import "../css/main.css";
+import "../css/fonts.css";
 import profilepic from "../images/profile-pic.jpg";
 
 class About extends Component {
