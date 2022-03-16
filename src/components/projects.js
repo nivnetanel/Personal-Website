@@ -17,12 +17,12 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-htmlcss.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj1} alt="Beetle" />
+                    <img src={proj1} />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
-                          <h3 className="folio-title">Beetle</h3>
-                          <span className="folio-types"> Branding </span>
+                          <h3 className="folio-title">Personal Card</h3>
+                          <span className="folio-types">HTML & CSS</span>
                         </div>
                       </div>
                     </p>
@@ -33,12 +33,12 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-comf-shop.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj2} alt="Clouds" />
+                    <img src={proj2} />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
-                          <h3 className="folio-title">Clouds</h3>
-                          <span className="folio-types"> Web Design </span>
+                          <h3 className="folio-title">Comfy Shop</h3>
+                          <span className="folio-types"> ReactJS </span>
                         </div>
                       </div>
                     </p>
@@ -49,12 +49,12 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-todo.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj3} alt="Clouds" />
+                    <img src={proj3} />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
-                          <h3 className="folio-title">Clouds</h3>
-                          <span className="folio-types"> Web Design </span>
+                          <h3 className="folio-title">TODO</h3>
+                          <span className="folio-types"> reactjs </span>
                         </div>
                       </div>
                     </p>
@@ -68,12 +68,12 @@ class Projects extends Component {
                   target="_blank"
                 >
                   <div className="item-wrap">
-                    <img src={proj4} alt="Clouds" />
+                    <img src={proj4} />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
-                          <h3 className="folio-title">Clouds</h3>
-                          <span className="folio-types"> Web Design </span>
+                          <h3 className="folio-title">T-Bot</h3>
+                          <span className="folio-types"> python </span>
                         </div>
                       </div>
                     </p>

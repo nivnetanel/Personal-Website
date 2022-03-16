@@ -17,7 +17,6 @@ class About extends Component {
 
               <div className="intro-info">
                 <img src={profilepic} alt="Profile Picture" />
-
                 <p className="lead">
                   I'm Niv Netanel I live in Israel and I'm a computer science
                   student.
@@ -29,6 +28,7 @@ class About extends Component {
           <div className="row about-content">
             <div className="col-six tab-full">
               <h3>Profile</h3>
+
               <p>
                 High managing skills additional to technical and creative
                 thinking. Self-learner and passionate about technology.
@@ -58,7 +58,7 @@ class About extends Component {
               <h3>Skills</h3>
               <p>
                 A software dev with the goal of achieving expertise in Python,
-                Data,Automating Workflow and Machine Learning.
+                Data,Automating Workflow and Machine Learning, Skilled in:
               </p>
 
               <ul className="skill-bars">
@@ -72,19 +72,19 @@ class About extends Component {
                   <div className="progress percent85">
                     <span>85%</span>
                   </div>
-                  <strong>CSS3</strong>
+                  <strong>REACT</strong>
                 </li>
                 <li>
-                  <div className="progress percent70">
-                    <span>70%</span>
+                  <div className="progress percent80">
+                    <span>80%</span>
                   </div>
-                  <strong>REACT</strong>
+                  <strong>CSS</strong>
                 </li>
                 <li>
                   <div className="progress percent95">
                     <span>95%</span>
                   </div>
-                  <strong>CPP</strong>
+                  <strong>PYTHON</strong>
                 </li>
               </ul>
             </div>
