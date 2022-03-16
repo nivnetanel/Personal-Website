@@ -4,6 +4,9 @@ import "../css/base.css";
 import "../css/main.css";
 import "../css/fonts.css";
 import profilepic from "../images/profile-pic.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 class About extends Component {
   render() {
@@ -16,7 +19,11 @@ class About extends Component {
               <h1>Let me introduce myself.</h1>
 
               <div className="intro-info">
-                <img src={profilepic} alt="Profile Picture" />
+                <img
+                  src={profilepic}
+                  alt="Profile Picture"
+                  data-aos="zoom-in"
+                />
                 <p className="lead">
                   I'm Niv Netanel I live in Israel and I'm a computer science
                   student.

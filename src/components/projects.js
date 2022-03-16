@@ -6,6 +6,9 @@ import proj1 from "../images/portfolio/proj1.png";
 import proj2 from "../images/portfolio/proj2.png";
 import proj3 from "../images/portfolio/proj3.png";
 import proj4 from "../images/portfolio/proj4.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 class Projects extends Component {
   render() {
@@ -17,7 +20,7 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-htmlcss.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj1} />
+                    <img src={proj1} data-aos="flip-left" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
@@ -33,7 +36,7 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-comf-shop.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj2} />
+                    <img src={proj2} data-aos="flip-right" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
@@ -49,7 +52,7 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-todo.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj3} />
+                    <img src={proj3} data-aos="flip-left" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
@@ -68,11 +71,11 @@ class Projects extends Component {
                   target="_blank"
                 >
                   <div className="item-wrap">
-                    <img src={proj4} />
+                    <img src={proj4} data-aos="flip-right" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
-                          <h3 className="folio-title">T-Bot</h3>
+                          <h3 className="folio-title">Telegram-Bot</h3>
                           <span className="folio-types"> python </span>
                         </div>
                       </div>

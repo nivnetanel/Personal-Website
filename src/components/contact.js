@@ -3,17 +3,19 @@ import Footer from "./footer";
 import "../css/base.css";
 import "../css/main.css";
 import "../css/fonts.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div data-aos="zoom-in">
         <section id="contact">
           <div className="row section-intro">
             <div className="col-twelve">
               <h5>Contact</h5>
               <h1>I'd Love To Hear From You.</h1>
-
               <p className="lead"></p>
             </div>
           </div>

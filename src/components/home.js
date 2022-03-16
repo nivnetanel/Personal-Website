@@ -4,6 +4,9 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import "../css/base.css";
 import "../css/main.css";
 import "../css/fonts.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 class Home extends Component {
   render() {
@@ -44,7 +47,11 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <ul className="intro-social">
+          <ul
+            className="intro-social"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <li className="rounded-social-buttons">
               <a
                 className="social-button facebook"
