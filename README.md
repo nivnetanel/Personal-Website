@@ -1,4 +1,4 @@
-# [live demo 👋](niv-react.netlify.app)
+# [live demo 👋](https://niv-portfolio.netlify.app/)
 
 
 ## Getting Started with Create React App
