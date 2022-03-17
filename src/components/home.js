@@ -13,8 +13,7 @@ class Home extends Component {
     return (
       <div>
         <section id="intro" data-aos="zoom-in">
-          <div className="intro-overlay"></div>
-
+          <div className="intro-overlay" />
           <div className="intro-content">
             <div className="row">
               <div className="col-twelve">
@@ -47,11 +46,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <ul
-            className="intro-social"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+          <ul className="intro-social">
             <li className="rounded-social-buttons">
               <a
                 className="social-button facebook"
