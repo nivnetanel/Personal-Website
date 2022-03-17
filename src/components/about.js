@@ -25,8 +25,8 @@ class About extends Component {
                   data-aos="zoom-in"
                 />
                 <p className="lead">
-                  I'm Niv Netanel I live in Israel and I'm a computer science
-                  student.
+                  My name is Niv Netanel, I live in Israel. I am computer
+                  science student at HIT academy
                 </p>
               </div>
             </div>

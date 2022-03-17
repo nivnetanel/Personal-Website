@@ -9,7 +9,7 @@ import Navbar from "./components/navbar";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
+      = {/* <Navbar /> */}
       <Home />
       <About />
       <Projectpage />

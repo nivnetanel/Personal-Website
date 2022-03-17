@@ -12,7 +12,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <section id="intro">
+        <section id="intro" data-aos="zoom-in">
           <div className="intro-overlay"></div>
 
           <div className="intro-content">
