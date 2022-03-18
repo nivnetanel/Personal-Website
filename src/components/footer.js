@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../css/base.css";
 import "../css/main.css";
-import "../css/fonts.css";
 
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <>
         <footer>
           <div className="row">
             <div className="col-six tab-full pull-right social">
@@ -59,7 +58,7 @@ class Footer extends Component {
             </div>
           </div>
         </footer>
-      </div>
+      </>
     );
   }
 }

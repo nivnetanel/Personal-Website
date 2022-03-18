@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Footer from "./footer";
 import "../css/base.css";
 import "../css/main.css";
-import "../css/fonts.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();

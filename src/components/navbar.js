@@ -2,7 +2,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import React, { Component } from "react";
 import "../css/base.css";
 import "../css/main.css";
-import "../css/fonts.css";
 
 class Navbar extends Component {
   render() {

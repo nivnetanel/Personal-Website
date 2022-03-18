@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "../css/base.css";
-import "../css/fonts.css";
 import "../css/main.css";
 import Projects from "./projects";
 
 class Projectpage extends Component {
   render() {
     return (
-      <div>
+      <>
         <section id="portfolio">
           <div className="row section-intro">
             <div className="col-twelve">
@@ -17,7 +16,7 @@ class Projectpage extends Component {
           </div>
           <Projects />
         </section>
-      </div>
+      </>
     );
   }
 }
