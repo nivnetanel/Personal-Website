@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Footer from "./footer";
 import "../css/base.css";
 import "../css/main.css";
 import AOS from "aos";
@@ -69,7 +68,6 @@ class Contact extends Component {
               </div>
             </div>
           </div>
-          <Footer />
         </section>
       </div>
     );

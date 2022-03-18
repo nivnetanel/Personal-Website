@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import SocialButtons from "./socialbuttons";
 import "../css/base.css";
 import "../css/main.css";
 import AOS from "aos";
@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
     return (
       <>
-        <section id="intro" data-aos="zoom-in">
+        <section id="intro">
           <div className="intro-overlay" />
           <div className="intro-content ">
             <div className="row">
@@ -43,26 +43,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <ul className="intro-social">
-            <li className="rounded-social-buttons">
-              <a
-                className="social-button facebook"
-                href="https://www.facebook.com/Niv.Netanel/"
-              ></a>
-            </li>
-            <li className="rounded-social-buttons">
-              <a
-                className="social-button linkedin"
-                href="https://www.linkedin.com/in/niv-netanel/"
-              ></a>
-            </li>
-            <li className="rounded-social-buttons">
-              <a
-                className="social-button github"
-                href="https://github.com/niv96"
-              ></a>
-            </li>
-          </ul>
+          <SocialButtons />
         </section>
       </>
     );

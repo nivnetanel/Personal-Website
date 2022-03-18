@@ -19,7 +19,7 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-htmlcss.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj1} data-aos="flip-left" />
+                    <img src={proj1} data-aos="zoom-in-left" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
@@ -35,7 +35,7 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-comf-shop.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj2} data-aos="flip-right" />
+                    <img src={proj2} data-aos="zoom-in-right" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
@@ -51,7 +51,7 @@ class Projects extends Component {
               <div className="bgrid folio-item">
                 <a href="https://niv-todo.netlify.app/" target="_blank">
                   <div className="item-wrap">
-                    <img src={proj3} data-aos="flip-left" />
+                    <img src={proj3} data-aos="zoom-in-left" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
@@ -70,7 +70,7 @@ class Projects extends Component {
                   target="_blank"
                 >
                   <div className="item-wrap">
-                    <img src={proj4} data-aos="flip-right" />
+                    <img src={proj4} data-aos="zoom-in-right" />
                     <p className="overlay">
                       <div className="folio-item-table">
                         <div className="folio-item-cell">
