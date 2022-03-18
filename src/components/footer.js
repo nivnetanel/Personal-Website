@@ -11,6 +11,7 @@ class Footer extends Component {
         <div className="row section-intro">
           <SocialButtons />
           <Link
+            data-aos="zoom-in"
             className="button stroke"
             activeClass="active"
             to="intro"
