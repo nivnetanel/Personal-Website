@@ -3,7 +3,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import "../css/base.css";
 import "../css/main.css";
-import "../css/fonts.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -11,17 +10,15 @@ AOS.init();
 class Home extends Component {
   render() {
     return (
-      <div>
+      <>
         <section id="intro" data-aos="zoom-in">
           <div className="intro-overlay" />
-          <div className="intro-content">
+          <div className="intro-content ">
             <div className="row">
+              <div className="container2">
+                <h5 className="typed-out2">Hello, World.</h5>
+              </div>
               <div className="col-twelve">
-                <div className="container2">
-                  <h5 className="typed-out2">Hello, World.</h5>
-                </div>
-                <br></br>
-
                 <div className="container">
                   <h1 className="typed-out">I'm Niv Netanel. </h1>
                 </div>
@@ -67,7 +64,7 @@ class Home extends Component {
             </li>
           </ul>
         </section>
-      </div>
+      </>
     );
   }
 }

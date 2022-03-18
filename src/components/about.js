@@ -3,7 +3,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import "../css/base.css";
 import "../css/main.css";
-import "../css/fonts.css";
 import profilepic from "../images/profile-pic.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,7 +11,7 @@ AOS.init();
 class About extends Component {
   render() {
     return (
-      <div>
+      <>
         <section id="about" className="grey-section">
           <div className="row section-intro">
             <div className="col-twelve">
@@ -101,6 +100,7 @@ class About extends Component {
           <div className="row button-section">
             <div className="col-twelve">
               <Link
+                data-aos="zoom-in"
                 className="button stroke"
                 activeClass="active"
                 to="contact"
@@ -113,6 +113,7 @@ class About extends Component {
               </Link>
 
               <Link
+                data-aos="zoom-in"
                 className="button stroke"
                 activeClass="active"
                 to="portfolio"
@@ -126,7 +127,7 @@ class About extends Component {
             </div>
           </div>
         </section>
-      </div>
+      </>
     );
   }
 }
