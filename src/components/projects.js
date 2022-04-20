@@ -66,7 +66,7 @@ class Projects extends Component {
 
               <div className="bgrid folio-item">
                 <a
-                  href="https://github.com/niv96/Telegram-Bots"
+                  href="https://github.com/nivnetanel/Telegram-Bots"
                   target="_blank"
                 >
                   <div className="item-wrap">
