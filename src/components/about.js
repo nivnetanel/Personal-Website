@@ -51,8 +51,8 @@ class About extends Component {
                   <span>September 09, 1996</span>
                 </li>
                 <li>
-                  <strong>Website:</strong>
-                  <span>www.niv-website.com</span>
+                  <strong>Github:</strong>
+                  <span>www.github.com/nivnetanel</span>
                 </li>
                 <li>
                   <strong>Email:</strong>
@@ -73,7 +73,7 @@ class About extends Component {
                   <div className="progress percent95">
                     {/* <span>90%</span> */}
                   </div>
-                  <strong>HTML5</strong>
+                  <strong>SQL</strong>
                 </li>
                 <li>
                   <div className="progress percent95">
