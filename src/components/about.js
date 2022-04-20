@@ -70,26 +70,26 @@ class About extends Component {
 
               <ul className="skill-bars">
                 <li>
-                  <div className="progress percent90">
-                    <span>90%</span>
+                  <div className="progress percent95">
+                    {/* <span>90%</span> */}
                   </div>
                   <strong>HTML5</strong>
                 </li>
                 <li>
-                  <div className="progress percent85">
-                    <span>85%</span>
+                  <div className="progress percent95">
+                    {/* <span>85%</span> */}
                   </div>
                   <strong>REACT</strong>
                 </li>
                 <li>
-                  <div className="progress percent80">
-                    <span>80%</span>
+                  <div className="progress percent90">
+                    {/* <span>80%</span> */}
                   </div>
                   <strong>CSS</strong>
                 </li>
                 <li>
                   <div className="progress percent95">
-                    <span>95%</span>
+                    {/* <span>95%</span> */}
                   </div>
                   <strong>PYTHON</strong>
                 </li>
