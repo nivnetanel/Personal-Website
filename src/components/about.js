@@ -26,7 +26,7 @@ class About extends Component {
                 />
                 <p className="lead">
                   My name is Niv Netanel, I live in Israel. I am computer
-                  science student at HIT academy
+                  science student at HIT Israel.
                 </p>
               </div>
             </div>
@@ -55,6 +55,10 @@ class About extends Component {
                   <span>www.github.com/nivnetanel</span>
                 </li>
                 <li>
+                  <strong>Linkedin:</strong>
+                  <span>www.linkedin.com/in/niv-netanel/</span>
+                </li>
+                <li>
                   <strong>Email:</strong>
                   <span>nivnetanel96@gmail.com</span>
                 </li>
@@ -62,7 +66,7 @@ class About extends Component {
             </div>
 
             <div className="col-six tab-full">
-              <h3>Skills</h3>
+              <h3>TECHNICAL SKILLS</h3>
               <p className="lead">
                 A software dev with the goal of achieving expertise in Python,
                 Data,Automating Workflow and Machine Learning, Skilled in:
@@ -70,25 +74,31 @@ class About extends Component {
 
               <ul className="skill-bars">
                 <li>
-                  <div className="progress percent95">
+                  <div className="progress percent100">
                     {/* <span>90%</span> */}
                   </div>
-                  <strong>SQL</strong>
+                  <strong>HTML5 & CSS</strong>
                 </li>
                 <li>
-                  <div className="progress percent95">
+                  <div className="progress percent100">
                     {/* <span>85%</span> */}
                   </div>
-                  <strong>REACT</strong>
+                  <strong>REACTJS</strong>
                 </li>
                 <li>
-                  <div className="progress percent90">
+                  <div className="progress percent100">
                     {/* <span>80%</span> */}
                   </div>
-                  <strong>CSS</strong>
+                  <strong>JAVASCRIPT</strong>
                 </li>
                 <li>
-                  <div className="progress percent95">
+                  <div className="progress percent100">
+                    {/* <span>80%</span> */}
+                  </div>
+                  <strong>TYPESCRIPT</strong>
+                </li>
+                <li>
+                  <div className="progress percent100">
                     {/* <span>95%</span> */}
                   </div>
                   <strong>PYTHON</strong>
