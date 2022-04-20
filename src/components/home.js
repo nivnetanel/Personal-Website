@@ -27,23 +27,23 @@ class Home extends Component {
                   <span>Developer</span>
                   <span>Designer</span>
                 </p>
-                <div data-aos="zoom-in" data-aos-duration="3000">
-                  <Link
-                    className="button stroke"
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    More About Me
-                  </Link>
-                </div>
+                <Link
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                  className="button stroke"
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  More About Me
+                </Link>
               </div>
             </div>
+            <SocialButtons />
           </div>
-          <SocialButtons />
         </section>
       </>
     );
