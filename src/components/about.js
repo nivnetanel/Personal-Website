@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-
 import "../css/base.css";
 import "../css/main.css";
 import profilepic from "../images/profile-pic.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 AOS.init();
 
 class About extends Component {
