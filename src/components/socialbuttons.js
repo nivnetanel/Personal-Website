@@ -18,7 +18,10 @@ class SocialButtons extends Component {
             </a>
           </li>
           <li className="rounded-social-buttons">
-            <a className="social-button github" href="https://github.com/niv96">
+            <a
+              className="social-button github"
+              href="https://github.com/nivnetanel"
+            >
               <FontAwesomeIcon icon={faGithub} className="fab fa-github" />
             </a>
           </li>
