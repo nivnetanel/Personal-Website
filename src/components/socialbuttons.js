@@ -8,7 +8,7 @@ class SocialButtons extends Component {
   render() {
     return (
       <div>
-        <ul className="intro-social" data-aos="zoom-in">
+        <ul className="intro-social">
           <li className="rounded-social-buttons">
             <a
               className="social-button linkedin"
