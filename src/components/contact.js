@@ -8,8 +8,8 @@ AOS.init();
 class Contact extends Component {
   render() {
     return (
-      <div data-aos="zoom-in">
-        <section id="contact">
+      <div>
+        <section id="contact" data-aos="zoom-in">
           <div className="row section-intro">
             <div className="col-twelve">
               <h5>Contact</h5>

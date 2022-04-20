@@ -36,7 +36,7 @@ class About extends Component {
             <div className="col-six tab-full">
               <h3>Profile</h3>
 
-              <p>
+              <p className="lead">
                 High managing skills additional to technical and creative
                 thinking. Self-learner and passionate about technology.
               </p>
@@ -63,7 +63,7 @@ class About extends Component {
 
             <div className="col-six tab-full">
               <h3>Skills</h3>
-              <p>
+              <p className="lead">
                 A software dev with the goal of achieving expertise in Python,
                 Data,Automating Workflow and Machine Learning, Skilled in:
               </p>

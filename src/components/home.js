@@ -27,7 +27,7 @@ class Home extends Component {
                   <span>Developer</span>
                   <span>Designer</span>
                 </p>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="3000">
                   <Link
                     className="button stroke"
                     activeClass="active"
