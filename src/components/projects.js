@@ -51,7 +51,37 @@ class Projects extends Component {
                   </div>
                 </a>
               </div>
+              <div className="bgrid folio-item">
+                <a href="https://nimni-moving.netlify.app/" target="_blank">
+                  <div className="item-wrap">
+                    <img src={proj5} data-aos="zoom-in-left" />
+                    <p className="overlay">
+                      <div className="folio-item-table">
+                        <div className="folio-item-cell">
+                          <h3 className="folio-title">Personal Card</h3>
+                          <span className="folio-types">TypeScript & Sass</span>
+                        </div>
+                      </div>
+                    </p>
+                  </div>
+                </a>
+              </div>
 
+              <div className="bgrid folio-item">
+                <a href="https://cocktails-party.netlify.app/" target="_blank">
+                  <div className="item-wrap">
+                    <img src={proj6} data-aos="zoom-in-right" />
+                    <p className="overlay">
+                      <div className="folio-item-table">
+                        <div className="folio-item-cell">
+                          <h3 className="folio-title">Cocktail Party</h3>
+                          <span className="folio-types"> reactjs </span>
+                        </div>
+                      </div>
+                    </p>
+                  </div>
+                </a>
+              </div>
               <div className="bgrid folio-item">
                 <a href="https://niv-todo.netlify.app/" target="_blank">
                   <div className="item-wrap">
@@ -80,38 +110,6 @@ class Projects extends Component {
                         <div className="folio-item-cell">
                           <h3 className="folio-title">Telegram-Bot</h3>
                           <span className="folio-types"> python </span>
-                        </div>
-                      </div>
-                    </p>
-                  </div>
-                </a>
-              </div>
-
-              <div className="bgrid folio-item">
-                <a href="https://nimni-moving.netlify.app/" target="_blank">
-                  <div className="item-wrap">
-                    <img src={proj5} data-aos="zoom-in-left" />
-                    <p className="overlay">
-                      <div className="folio-item-table">
-                        <div className="folio-item-cell">
-                          <h3 className="folio-title">Personal Card</h3>
-                          <span className="folio-types">TypeScript & Sass</span>
-                        </div>
-                      </div>
-                    </p>
-                  </div>
-                </a>
-              </div>
-
-              <div className="bgrid folio-item">
-                <a href="https://cocktails-party.netlify.app/" target="_blank">
-                  <div className="item-wrap">
-                    <img src={proj6} data-aos="zoom-in-right" />
-                    <p className="overlay">
-                      <div className="folio-item-table">
-                        <div className="folio-item-cell">
-                          <h3 className="folio-title">Cocktail Party</h3>
-                          <span className="folio-types"> reactjs </span>
                         </div>
                       </div>
                     </p>
