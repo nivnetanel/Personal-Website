@@ -14,7 +14,16 @@ class Projectpage extends Component {
               <h1>Check Out Some of My Works.</h1>
             </div>
           </div>
-          <Projects />
+          <div className="row portfolio-content">
+            <div className="col-twelve">
+              <div
+                id="folio-wrapper"
+                className="block-1-2 block-mob-full stack"
+              >
+                <Projects />
+              </div>
+            </div>
+          </div>
         </section>
       </>
     );
